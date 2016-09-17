@@ -1,0 +1,18 @@
+using System;
+public class Hello{
+    public static void Main(){
+        // 自分の得意な言語で
+        // Let's チャレンジ！！
+        var lineS = System.Console.ReadLine();
+        var lineT = System.Console.ReadLine();
+        int s = Int32.Parse(lineS);
+        int t = Int32.Parse(lineT);
+        for(int i = 1;i <= s; i++){
+            if(i==t){
+                Console.Write("+");
+            }else{
+                Console.Write("-");
+            }
+        }
+    }
+}
